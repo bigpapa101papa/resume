@@ -1,74 +1,33 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2; /* Light grey background */
-}
-
-/* Header Styles */
-header {
-  background: linear-gradient(135deg, #ff6b6b, #3a1c71); /* Gradient background */
-  color: #fff; /* White text */
-  padding: 20px 0; /* Padding for header */
-  text-align: center; /* Center-align text */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
-}
-
-h1 {
-  margin: 0;
-  font-size: 2.5em; /* Large font size */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
-}
-
-/* Navigation Styles */
-nav {
-  text-align: center;
-  margin-top: 20px; /* Spacing from header */
-}
-
-nav a {
-  text-decoration: none; /* Remove underline */
-  color: #fff; /* White text */
-  padding: 10px 20px; /* Padding for links */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #5f27cd; /* Purple background */
-  margin: 0 5px; /* Spacing between links */
-  transition: all 0.3s ease; /* Smooth transition on hover */
-}
-
-nav a:hover {
-  background-color: #ff6b6b; /* Red background on hover */
-}
-
-/* Section Styles */
-section {
+/* Contact Me Section Styles */
+.contact-section {
+  background-color: #ffecb3; /* Light yellow background */
   padding: 20px; /* Padding for content */
+  margin-top: 20px; /* Spacing from previous section */
 }
 
-section h2 {
-  color: #5f27cd; /* Purple heading color */
+.contact-section h2 {
+  color: #ff6b6b; /* Red heading color */
   text-align: center; /* Center-align heading */
   margin-bottom: 20px; /* Spacing below heading */
   transition: all 0.3s ease; /* Smooth transition on hover */
 }
 
-section h2:hover {
-  font-size: 2em; /* Larger font size on hover */
-}
-
-section p {
-  color: #666; /* Grey text color */
+.contact-section p {
+  color: #333; /* Dark grey text color */
   font-size: 1.1em; /* Medium font size */
 }
 
-/* Footer Styles */
-footer {
-  background: linear-gradient(135deg, #3a1c71, #ff6b6b); /* Gradient background */
-  color: #fff; /* White text */
-  text-align: center; /* Center-align text */
-  padding: 10px 0; /* Padding for footer */
-  position: fixed; /* Fixed position at the bottom */
-  bottom: 0; /* Stick to the bottom */
-  width: 100%; /* Full width */
+.contact-section a {
+  display: inline-block; /* Display as block element */
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* White text color */
+  background-color: #ff6b6b; /* Red background color */
+  padding: 10px 20px; /* Padding for links */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px; /* Spacing from previous element */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact-section a:hover {
+  background-color: #ff8c8c; /* Lighter red background on hover */
 }
